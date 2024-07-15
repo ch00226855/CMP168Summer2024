@@ -8,6 +8,7 @@
 - Github
 - Dropbox
 - Eclipse IDE
+- ChatGPT
 
 ## Chapter 1 Review: Introduction to Java
 **Review Exercise**: Create a "Hello World" program with Eclipse.
