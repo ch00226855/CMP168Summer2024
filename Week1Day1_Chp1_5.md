@@ -8,7 +8,10 @@
 - Github
 - Dropbox
 - Eclipse IDE
-- ChatGPT
+- Online Resources:
+  - Java Documentation
+  - Stack Overflow
+  - ChatGPT
 
 ## Chapter 1 Review: Introduction to Java
 **Review Exercise**: Create a "Hello World" program with Eclipse.
