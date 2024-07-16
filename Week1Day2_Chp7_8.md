@@ -18,7 +18,7 @@ public static void method1(int x, int y) {
 ```
 - **Access modifiers**
     - **public**: Any part of the program can access this method. (`private`, `protected`, none)
-    - **static**: A static method is associate with the class. It only uses values that are passed to this method
+    - **static**: A static method is associate with the class. More on this in Chapter 10.
 - **Return type**: The type of the returned value. If no value is returned, then use `void`
 - **Parameters**: The variables that will be used during the execution of the method.
 - **Method call**
