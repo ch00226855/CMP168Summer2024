@@ -147,15 +147,6 @@ Within an instance method or a constructor, this refers to the current object (t
 
 **Exercise**: c10.11.2: The this implicit parameter
 
-### Static Variable / Method
-
-A **static variable** is a varable shared among all class objects. The keyword `static` is used when declaring such a variable. It will be accessed using the class name instead of an object's name.
-
-- Add a static variable `numRestaurants` to the `Restaurant` class.
-- Add static methods `updateNumRestaurants()` and `getNumRestaurants()` to the `Restaurant` class.
-
-**Exercise**: c10.16.1: A class with static members
-
 ### Unified Modeling Language (UML)
 
 **Unified Modeling Language (UML)** is a language used to define class models and specify the details of use cases.
@@ -206,9 +197,16 @@ Useful tags:
 - @return
 - @see
 
+**Generate Javadoc on Eclipse:** File -> Export -> Java -> Javadoc.
+
 ### Static Fields and Methods
 The keyword `static` indicates a variable is allocated in memory only once during a program's execution. Static variables reside in the program's static memory region and have a global scope. Thus, static variables can be accessed from anywhere in a program.
 
 A **static field** is a field of the class instead of a field of each class object. Thus, static fields are independent of any class object, and can be accessed without creating a class object.
 
 A static member method is a class method that is independent of class objects. Static member methods are typically used to access and mutate private static fields from outside the class. A static member method can only access a class' static fields.
+
+- Add a static variable `numRestaurants` to the `Restaurant` class.
+- Add static methods `updateNumRestaurants()` and `getNumRestaurants()` to the `Restaurant` class.
+
+**Exercise**: c10.16.1: A class with static members
