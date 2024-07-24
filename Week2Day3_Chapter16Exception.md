@@ -1,4 +1,4 @@
-# Week 2 Day 2
+# Week 2 Day 3
 # Chapter 16 Exceptions
 
 ## The Comparable Interface
