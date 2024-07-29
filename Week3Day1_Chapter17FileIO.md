@@ -98,15 +98,14 @@ try {	file = new FileInputStream("C:/Users/DancyZou/Downloads/temp.txt");
 A program can use a **try-with-resources** statement to automatically close files if any exception, caught or uncaught, occurs within a try block. The try-with-resources statement declares closable resources, like files, within parentheses after the try keyword and before the try's opening curly brace. The declared resources are closed after the try block exits. Multiple resources, separated by semicolons, can be declared in a single try-with-resources statement.
 
 ```java
- try (file = new FileInputStream("temp.txt"),
-	scnr = new Scanner(file)) {
-            String line;
-            while (scnr.hasNext()) {
-                System.out.println(line);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+try (FileInputStream file = new FileInputStream("src/temp.txt");
+			Scanner scnr = new Scanner(file))
+{
+	System.out.println(scnr.nextLine());
+} catch (IOException e) {
+	System.out.println(e.getMessage());
+	e.printStackTrace();
+}
 ```
 
 ## Write to Files
