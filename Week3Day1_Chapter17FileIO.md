@@ -110,7 +110,7 @@ try (FileInputStream file = new FileInputStream("src/temp.txt");
 
 ## Write to Files
 Java provides various way to represent outputs of a program:
-- `FileOutputStream`: represents the output of the program as a byte stream
+- `OutputStream`: represents the output of the program as a byte stream
 - `PrintStream`: subclass of `OutputStream` with additional print methods
 - `FileOutputStream`: an output stream writing to a file
 - `File`
