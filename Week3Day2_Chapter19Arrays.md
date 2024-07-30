@@ -71,7 +71,7 @@ vals.add(31);
 ...
 ```
 
-**Remark** `ArrayList` only support reference types. Primitive types must use there corresponding **wrapper** class as the type.
+**Remark** `ArrayList` only support reference types. Primitive types must use their corresponding **wrapper** class as the type.
 
 **Common ArrayList methods**: Table 19.4.1
 
