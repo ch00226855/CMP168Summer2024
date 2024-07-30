@@ -198,6 +198,23 @@ try {
 	}
 }
 ```
+### File Writing with Try-with-Resources Block
+```java
+try (FileInputStream file1 = new FileInputStream("src/temp.txt");
+	Scanner scnr = new Scanner(file1);
+	FileOutputStream file2 = new FileOutputStream("src/records3.txt", true);
+	PrintWriter pw = new PrintWriter(file2)) {
+
+			while (scnr.hasNext()) {
+				pw.println(scnr.nextLine());
+			}
+
+			pw.flush();
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+```
 - Delete a file
 ```java
 File file = new File("data/records_copy.txt");
