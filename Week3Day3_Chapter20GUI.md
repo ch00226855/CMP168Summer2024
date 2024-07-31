@@ -1,4 +1,4 @@
-# Week 3 Day 4
+# Week 3 Day 3
 # Chapter 20 GUI
 
 Java provides several packages for creating a program with **graphical user interface (GUI)**. In this class we will learn tools from `java.awt` (the abstract window toolkit) and `javax.swing` (the swing toolkit) to create graphical objects such as windows, buttons, labels, text fields, etc.
@@ -92,10 +92,10 @@ Classes `java.awt.Graphics` and `java.awt.Graphics2D` act as paint brushes. `Gra
 
 **Example**: Can you draw the following images?
 
-![Pac Man](img/Week3Day3_PacMan.png)
+![Pac Man](https://i.pinimg.com/736x/3c/ca/25/3cca2588180da6de0b363ec0cd722366.jpg)
 
 
-![Snowman](img/Week3Day3_SnowMan.png)
+![Snowman](https://raw.githubusercontent.com/ch00226855/CMP168Summer2023/main/img/Week3Day3_SnowMan.png)
 
 ## The MVC Framework
 A Java graphical application is created based on a **model-view-controller (MVC)** framework:
