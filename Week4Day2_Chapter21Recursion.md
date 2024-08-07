@@ -75,7 +75,15 @@ A recursive method is a natural match for the recursive binary search algorithm.
 Suppose the length of the array is n.
 - What is its best-case complexity? 
 - What is its worst-case complexity? 
-- What is its average-case complexity? 
+- What is its average-case complexity?
+ 
+** Worst-Case Complexity: $log_2(n)$ (n represents the size of the input array.)
+- n = 1000: binary search requires at most 10 comparisons.
+- n = 2000: binary search requires at most 11 comparisons.
+- n = 4000: binary search requires at most 12 comparisons.
+- n = 8000: binary search requires at most 13 comparisons.
+- ---
+- n = 1,000,000: binary search requires at most 20 comparisons.
 
 ## O Notation
 - The **Big O** notation is a mathematical way of describing how a function (running time of an algorithm) generally behaves in relation to the input size. 
